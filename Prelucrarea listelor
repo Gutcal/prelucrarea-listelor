@@ -1,0 +1,24 @@
+prenume=['Mihai', 'Ion', 'Alina', 'Anna', 'Vica']
+varsta=[12,15,45,77,32]
+print(prenume[0],'are vârsta de',varsta[0],'ani')
+print(prenume[1],'are vârsta de',varsta[1],'ani')
+print(prenume[2],'are vârsta de',varsta[2],'ani')
+print(prenume[3],'are vârsta de',varsta[3],'ani')
+print(prenume[4],'are vârsta de',varsta[4],'ani')
+prenume.extend(['Andrea', 'Ioan'])
+print(prenume)
+varsta.extend(['34', '24'])
+print(varsta)
+del prenume[3:4]
+print(prenume)
+del varsta[3:4]
+print(varsta)
+lista1=prenume[0:3]
+print (lista1)
+prenume.sort (reverse=True)
+print(prenume[3:4])
+print(varsta[1:2])
+print(prenume[4:5])
+print(varsta[3:4])
+print(prenume[0:5])
+print(varsta[0:5])
